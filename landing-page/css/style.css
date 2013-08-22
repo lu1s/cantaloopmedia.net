@@ -1,0 +1,38 @@
+html body {
+  background: url(../img/Fondo.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+.container-fluid .logo-wrp div img.img-responsive,
+.container-fluid .connect-with-us div img.img-responsive {
+  margin: 0 auto;
+}
+.container-fluid .logo-wrp div hr.supline,
+.container-fluid .connect-with-us div hr.supline {
+  color: black;
+  background: black;
+  height: 8px;
+}
+.container-fluid .logo-wrp {
+  margin-top: 60px;
+}
+.container-fluid .logo-wrp div hr.supline {
+  margin-top: 158px;
+}
+.container-fluid .connect-with-us div hr.supline {
+  margin-top: 10px;
+}
+.container-fluid .main-img {
+  margin: 50px auto 80px auto;
+}
+.container-fluid .social {
+  margin-top: 28px;
+}
